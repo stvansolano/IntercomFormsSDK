@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{6EE3A4C5-EF7C-4E24-8112-1A61E0A341A6}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Intercom.Forms</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)MyClass.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IIntercom.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IntercomBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CrossIntercom.cs" />
+  </ItemGroup>
+</Project>

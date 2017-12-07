@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+	<remove-node path="/api/package[@name='io.intercom.com.bumptech.glide']" />
+	<remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.request.animation']" />
+	<remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.request.target']" />
+	<remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.data']" />
+	<remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.model']" />
+	<remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.engine']" />
+	<remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.engine.executor']" />
+	<remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.engine.bitmap_recycle']" />
+	<remove-node path="/api/package[@name='io.intercom.okio']" />
+	<remove-node path="/api/package[@name='io.intercom.com.squareup.otto']" />
+<!--	<remove-node path="/api/package[@name='io.intercom.android.sdk.nexus']" />-->
+	<remove-node path="/api/package[@name='io.intercom.android.sdk.nexus']/class[@name='NexusClient']" />
+	<remove-node path="/api/package[@name='io.intercom.android.sdk.models']/class[@name='ConversationsResponse']" />
+	<remove-node path="/api/package[@name='io.intercom.android.sdk.models']/class[@name='LinkResponse']" />
+	<remove-node path="/api/package[@name='io.intercom.android.sdk.models']/class[@name='UsersResponse']" />
+	<remove-node path="/api/package[@name='io.intercom.android.sdk.middleware']" />
+	<remove-node path="/api/package[@name='io.intercom.android.sdk.store']" />
+	<remove-node path="/api/package[@name='io.intercom.com.google.gson']" />
+	<remove-node path="/api/package[@name='io.intercom.com.google.gson.internal']" />
+	<remove-node path="/api/package[@name='io.intercom.com.google.gson.internal.bind']" />
+</metadata>
