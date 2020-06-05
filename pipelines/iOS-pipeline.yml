@@ -28,7 +28,7 @@ steps:
   inputs:
     solutionFile: '**/*.sln'
     configuration: 'Release'
-    buildForSimulator: true
+    buildForSimulator: false
     packageApp: false
 
 - task: PublishPipelineArtifact@1
