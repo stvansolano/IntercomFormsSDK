@@ -24,6 +24,11 @@ steps:
   inputs:
     restoreSolution: '**/*.sln'
 
+- task: VSBuild@1
+  inputs:
+    solution: '**\*.sln'
+    configuration: 'Release'
+
 - task: XamariniOS@2
   inputs:
     solutionFile: '**/*.sln'
