@@ -23,11 +23,10 @@ steps:
 
 - task: XamariniOS@2
   inputs:
-    solutionFile: '**/**Intercom.Forms.iOS/IntercomSDK_iOS/IntercomSDK_iOS.csproj'
+    solutionFile: '**/Intercom.Forms.sln'
     configuration: 'Release'
     packageApp: false
-    runNugetRestore: true
-    
+    runNugetRestore: false    
 
 - task: PublishPipelineArtifact@1
   inputs:
