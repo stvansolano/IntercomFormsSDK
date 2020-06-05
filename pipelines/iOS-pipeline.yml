@@ -23,7 +23,7 @@ steps:
 
 - task: XamariniOS@2
   inputs:
-    solutionFile: '**/Intercom.Forms.sln'
+    solutionFile: '$(solution)'
     configuration: 'Release'
     packageApp: false
     runNugetRestore: false    
